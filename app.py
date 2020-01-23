@@ -18,7 +18,7 @@ def home():
 @app.route("/login")
 def login():
     if 'email' in session:
-        return redirect('https://bennettmedica.github.io/api/index.html')
+        return redirect('https://veKTR.github.io/api/index.html')
     else:
         return render_template('login.html')
 
@@ -37,7 +37,7 @@ def first():
 @app.route('/check')
 def check():
     if 'email' in session:
-        return redirect('https://bennettmedica.github.io/api/index.html')
+        return redirect('https://veKTR.github.io/api/index.html')
     else:
         return render_template('login.html')
 
