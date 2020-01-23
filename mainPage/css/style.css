@@ -2056,6 +2056,16 @@ ul {
   margin-right: 8px;
   color: #999999;
 }
+.anticipation{
+  text-align: center;
+
+  color:white;
+}
+.title{
+  width: 100%;
+  align-content: center;
+  margin-bottom: 30px;
+}
 
 /**************menu part start*****************/
 /* line 2, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_menu.scss */

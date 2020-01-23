@@ -1,649 +1,579 @@
-<!DOCTYPE html>
-<html class="no-js" lang="en">
+<!doctype html>
+<html lang="en">
 
 <head>
-    <!--- basic page needs
-    ================================================== -->
+    <!-- Required meta tags -->
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>veKTR</title>
-    <meta name="description" content="Welcome to veKTR">
-    <meta name="author" content="">
-
-    <!-- mobile specific metas
-    ================================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- CSS
-    ================================================== -->
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/vendor.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
-    <!-- script
-    ================================================== -->
-    <script src="js/modernizr.js"></script>
-    <script src="js/pace.min.js"></script>
-
-    <!-- favicons
-    ================================================== -->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-
+    <link rel="icon" href="./mainpage/img/icon/favicon.ico">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./mainpage/css/bootstrap.min.css">
+    <!-- animate CSS -->
+    <link rel="stylesheet" href="./mainpage/css/animate.css">
+    <!-- owl carousel CSS -->
+    <link rel="stylesheet" href="./mainpage/css/owl.carousel.min.css">
+    <!-- themify CSS -->
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <!-- flaticon CSS -->
+    <link rel="stylesheet" href="./mainpage/css/flaticon.css">
+    <!-- magnific popup CSS -->
+    <link rel="stylesheet" href="./mainpage/css/magnific-popup.css">
+    <!-- nice select CSS -->
+    <link rel="stylesheet" href="./mainpage/css/nice-select.css">
+    <!-- swiper CSS -->
+    <link rel="stylesheet" href="./mainpage/css/slick.css">
+    <!-- style CSS -->
+    <link rel="stylesheet" href="./mainpage/css/style.css">
 </head>
 
-<body id="top">
+<body>
+    <!--::header part start::-->
+    <header class="main_menu home_menu">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-12">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <a class="navbar-brand" href="index.html"> <img src="./mainpage/img/logo.png" class= "logoimage" alt="logo"> </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
 
-    <!-- header
-    ================================================== -->
-    <header class="s-header">
+                        <div class="collapse navbar-collapse main-menu-item justify-content-end"
+                            id="navbarSupportedContent">
+                            <ul class="navbar-nav align-items-center">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#about">about</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#ourTeam">Our Team</a>
+                                </li>
 
-        <div class="header-logo">
-            <a class="site-logo" href="home.html">
-                <!-- <img src="images/logo.png" alt="Homepage"> -->
-                <h2 class="logo">ve<span class="logo1">KTR</span></h2>
-            </a>
-        </div>
+                             
 
-        <nav class="header-nav">
-
-            <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
-
-            <div class="header-nav__content">
-                <h3>Navigation</h3>
-
-                <ul class="header-nav__list">
-                    <li><a href="login.html">Login</a></li>
-                    <li class="current"><a class="smoothscroll" href="#home" title="home">Home</a></li>
-                    <li><a class="smoothscroll" href="#about" title="about">About</a></li>
-                    <li><a class="smoothscroll" href="#services" title="services">Services</a></li>
-                    <li><a class="smoothscroll" href="#clients" title="clients">Partner-doctors</a></li>
-                    <li><a class="smoothscroll" href="#contact" title="contact">Contact</a></li>
-                </ul>
-
-                <p>Made under the guidance of Vipul Mishra ;)<br />By:
-                </p>
-                <ul>
-                    <li>Aaryan Kapur</li>
-                    <li>Abhinav Robinson</li>
-                    <li>Aniket Chowdhury</li>
-                    <li>Abhimanyu Banerjee</li>
-                    <li>Jai Chhabra</li>
-                    <li>Shrishtee Kriti</li>
-                </ul>
-
-                <ul class="header-nav__social">
-                    <li>
-                        <a href="#"><i class="fa fa-facebook"></i></a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fa fa-twitter"></i></a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fa fa-instagram"></i></a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fa fa-behance"></i></a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fa fa-dribbble"></i></a>
-                    </li>
-                </ul>
-
-            </div> <!-- end header-nav__content -->
-
-        </nav> <!-- end header-nav -->
-
-        <a class="header-menu-toggle" href="#0">
-            <span class="header-menu-text">Menu</span>
-            <span class="header-menu-icon"></span>
-        </a>
-
-    </header> <!-- end s-header -->
-
-
-    <!-- home
-    ================================================== -->
-    <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/hero-bg.png"
-        data-position-y=center>
-
-        <div class="overlay"></div>
-        <div class="shadow-overlay"></div>
-
-        <div class="home-content">
-
-            <div class="row home-content__main">
-
-                <h3>Welcome to veKTR</h3>
-
-                <h1>
-                    We <br> bring professional diagnosis <br> and <br> medical solutions to<br> patients <br>everywhere
-
-                </h1>
-
-                <div class="home-content__buttons">
-                    <input type=button onClick="parent.open('api/index.html')" class="smoothscroll btn btn--stroke"
-                        value='Start a diagnosis'>
-                    <a href="#about" class="smoothscroll btn btn--stroke">
-                        More About Us
-                    </a>
-                </div>
-
-            </div>
-
-            <div class="home-content__scroll">
-                <a href="#about" class="scroll-link smoothscroll">
-                    <span>Scroll Down</span>
-                </a>
-            </div>
-
-            <div class="home-content__line"></div>
-
-        </div> <!-- end home-content -->
-
-
-        <ul class="home-social">
-            <li>
-                <a href="#0"><i class="fa fa-facebook" aria-hidden="true"></i><span>Facebook</span></a>
-            </li>
-            <li>
-                <a href="#0"><i class="fa fa-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
-            </li>
-            <li>
-                <a href="#0"><i class="fa fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
-            </li>
-            <li>
-                <a href="#0"><i class="fa fa-behance" aria-hidden="true"></i><span>Behance</span></a>
-            </li>
-            <li>
-                <a href="#0"><i class="fa fa-dribbble" aria-hidden="true"></i><span>Dribble</span></a>
-            </li>
-        </ul>
-        <!-- end home-social -->
-
-    </section> <!-- end s-home -->
-
-
-    <!-- about
-    ================================================== -->
-    <section id='about' class="s-about">
-
-        <div class="row section-header has-bottom-sep" data-aos="fade-up">
-            <div class="col-full">
-                <h1 class="subhead subhead--dark">Hello World,</h1>
-                <h1 class="display-1 display-1--light">We Are veKTR</h1>
-            </div>
-        </div> <!-- end section-header -->
-
-        <div class="row about-desc" data-aos="fade-up">
-            <div class="col-full">
-                <p>
-                    5 students, one guiding soul, one coffee shop and countless hours of work gets you something that
-                    could revolutionize the
-                    medical industry itself. we have partnered with real doctors to create a database so vast as to
-                    cover
-                    almost all- dieases and their cures with a scale of certainity, moreover we guide you towards the
-                    next
-                    step in your care, and what doctor to consult! </p>
-            </div>
-        </div> <!-- end about-desc -->
-
-        <div class="row about-stats stats block-1-4 block-m-1-2 block-mob-full" data-aos="fade-up">
-
-            <div class="col-block stats__col ">
-                <div class="stats__count">0</div>
-                <h5>diagnosis done</h5>
-            </div>
-            <div class="col-block stats__col">
-                <div class="stats__count">1</div>
-                <h5>doctors-partnered with</h5>
-            </div>
-            <div class="col-block stats__col">
-                <div class="stats__count">100</div>
-                <h5>Cups of Coffee</h5>
-            </div>
-
-            <div class="col-block stats__col">
-                <div class="stats__count">5</div>
-                <h5>team members</h5>
-            </div>
-
-        </div> <!-- end about-stats -->
-
-        <div class="about__line"></div>
-
-    </section> <!-- end s-about -->
-
-
-    <!-- services
-    ================================================== -->
-    <section id='services' class="s-services">
-
-        <div class="row section-header has-bottom-sep" data-aos="fade-up">
-            <div class="col-full">
-                <h3 class="subhead">What We Do</h3>
-                <h1 class="display-2">We’ve got everything you need to know about and find a cure to your illness </h1>
-            </div>
-        </div> <!-- end section-header -->
-
-        <div class="row services-list block-1-2 block-tab-full">
-
-            <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon">
-                    <i class="icon-paint-brush"></i>
-                </div>
-                <div class="service-text">
-                    <h3 class="h2">PERSONALIZED TESTS</h3>
-                    <p> our personalized and tailored tests help you get the perfect diagnosis and help you get a cure
-                        for
-                        'you'!</p>
-                    <p>our short tests don't usually take more than a few minutes </p>
-                </div>
-            </div>
-
-            <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon">
-                    <i class="icon-group"></i>
-                </div>
-                <div class="service-text">
-                    <h3 class="h2">HUGE NETWORK</h3>
-                    <p>Our huge network of doctors and extensive database ensures that you get your diagnosis everytime
-                        and
-                        with the greatest possible accuracy!
-
-                    </p>
-                    <p>no longer visiting different doctorswith a multispeciality app in your pocket :)</p>
-                </div>
-            </div>
-
-            <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon">
-                    <i class="icon-megaphone"></i>
-                </div>
-                <div class="service-text">
-                    <h3 class="h2">NOTIFICATION</h3>
-                    <p>we send notification to one of our partner-doctors, if there's a seious ailment as a result of
-                        your
-                        diagnosis . and also we notify you too take your medicines on time!
-                    </p>
-                    <p>No more forgetting to take your medication</p>
-                </div>
-            </div>
-
-            <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon">
-                    <i class="icon-earth"></i>
-                </div>
-                <div class="service-text">
-                    <h3 class="h2">GLOBAL REACH</h3>
-                    <p>With our doctors, representatives and our patients present all around the world, you can be sure
-                        that
-                        you will bw taken care of!
-                    </p>
-                    <p>A companion when you need it the most!</p>
-                </div>
-            </div>
-
-            <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon">
-                    <i class="icon-cube"></i>
-                </div>
-                <div class="service-text">
-                    <h3 class="h2">MEDICINE DELIVERY</h3>
-                    <p>we guide you to the various online vendors for easy ordering of your medicines, and guide you
-                        through
-                        the process</p>
-                    <p>no more hassle at the chemist's!</p>
-                </div>
-            </div>
-
-            <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon"><i class="icon-lego-block"></i></div>
-                <div class="service-text">
-                    <h3 class="h2">EVER GROWING SERVICE</h3>
-                    <p>With our database constantly expanding and evolving, you can be sure of continuous service and
-                        updates
-                        and support from us</p>
-                    <p>no more outdated medical databases!
-                    </p>
-                </div>
-            </div>
-
-        </div> <!-- end services-list -->
-
-    </section> <!-- end s-services -->
-
-
-
-
-    <!-- clients
-    ================================================== -->
-    <section id="clients" class="s-clients">
-
-        <div class="row section-header" data-aos="fade-up">
-            <div class="col-full">
-                <h3 class="subhead">Meet Us</h3>
-                <h1 class="display-2">We are pleased to bring to you, an all in one - one stop medical diagnosis
-                    solution.   </h1>
-            </div>
-        </div> <!-- end section-header -->
-
-
-        <div class="row clients-testimonials" data-aos="fade-up">
-            <div class="col-full">
-                <div class="testimonials">
-
-                    <div class="testimonials__slide">
-
-                        <P>insert punny things </P>
-
-                        <img src="images/avatars/aaryan.jpeg" alt="Author image" class="testimonials__avatar">
-                        <div class="testimonials__info">
-                            <span class="testimonials__name">Aaryan Kapur</span>
-                            <span class="testimonials__pos">Project Manager, Full-Stack Developer</span>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#contact">Contact</a>
+                                </li>   <li class="nav-item">
+                                    <a class="nav-link" href="#opportunities">opportunities</a>
+                                </li>
+                                <li class="d-none d-lg-block">
+                                    <a class="btn_1" href="../api/index.html">Start a diagnosis</a>
+                                </li>
+                            </ul>
                         </div>
-
-                    </div>
-
-                    <div class="testimonials__slide">
-
-                        <p>One Swag Memelord</p>
-
-                        <img src="images/avatars/cheeku.jpeg" alt="Author image" class="testimonials__avatar">
-                        <div class="testimonials__info">
-                            <span class="testimonials__name"> Abhinav Robinson</span>
-                            <span class="testimonials__pos">Full-Stack Developer</span>
-                        </div>
-
-                    </div>
-
-                    <div class="testimonials__slide">
-
-                        <p>insert complex stuff</p>
-
-                        <img src="images/avatars/abhimanyu.jpeg" alt="Author image" class="testimonials__avatar">
-                        <div class="testimonials__info">
-                            <span class="testimonials__name">Abhimanyu Banerjee</span>
-                            <span class="testimonials__pos">Back-End Developer (Django)</span>
-                        </div>
-
-                    </div>
-
-                    <div class="testimonials__slide">
-
-                        <p>insert geeky stuff</p>
-
-                        <img src="images/avatars/jai.jpeg" alt="Author image" class="testimonials__avatar">
-                        <div class="testimonials__info">
-                            <span class="testimonials__name">Jai Chhabra</span>
-                            <span class="testimonials__pos">Designer </span>
-                        </div>
-
-                    </div>
-
-                    <div class="testimonials__slide">
-
-                        <p>insert research stuff</p>
-
-                        <img src="images/avatars/aniket.jpeg" alt="Author image" class="testimonials__avatar">
-                        <div class="testimonials__info">
-                            <span class="testimonials__name">Aniket Chowdhury</span>
-                            <span class="testimonials__pos">Research Specialist,Full Stack developer</span>
-                        </div>
-
-                    </div>
-                    <div class="testimonials__slide">
-
-                        <p>insert some stuff</p>
-
-                        <img src="images/avatars/shrishtee.jpeg" alt="Author image" class="testimonials__avatar">
-                        <div class="testimonials__info">
-                            <span class="testimonials__name">Shrishtee Kriti</span>
-                            <span class="testimonials__pos">Research Specialist, Alpha Tester</span>
-                        </div>
-
-                    </div>
-
-                </div><!-- end testimonials -->
-
-            </div> <!-- end col-full -->
-        </div> <!-- end client-testimonials -->
-
-    </section> <!-- end s-clients -->
-
-
-    <!-- contact
-    ================================================== -->
-    <section id="contact" class="s-contact">
-
-        <div class="overlay"></div>
-        <div class="contact__line"></div>
-
-        <div class="row section-header" data-aos="fade-up">
-            <div class="col-full">
-                <h3 class="subhead">Contact Us</h3>
-                <h1 class="display-2 display-2--light">Reach out or just say hello</h1>
+                    </nav>
+                </div>
             </div>
         </div>
+    </header>
+    <!-- Header part end-->
 
-        <div class="row contact-content" data-aos="fade-up">
-
-            <div class="contact-primary">
-
-                <h3 class="h6">Send Us A Message</h3>
-
-                <form name="contactForm" id="contactForm" method="post" action="" novalidate="novalidate">
-                    <fieldset>
-
-                        <div class="form-field">
-                            <input name="contactName" type="text" id="contactName" placeholder="Your Name" value=""
-                                minlength="2" required="" aria-required="true" class="full-width">
-                        </div>
-                        <div class="form-field">
-                            <input name="contactEmail" type="email" id="contactEmail" placeholder="Your Email" value=""
-                                required="" aria-required="true" class="full-width">
-                        </div>
-                        <div class="form-field">
-                            <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value=""
-                                class="full-width">
-                        </div>
-                        <div class="form-field">
-                            <textarea name="contactMessage" id="contactMessage" placeholder="Your Message" rows="10"
-                                cols="50" required="" aria-required="true" class="full-width"></textarea>
-                        </div>
-                        <div class="form-field">
-                            <button class="full-width btn--primary" formaction="https://formspree.io/aaryankapur1309@gmail.com">Submit</button>
-                            <div class="submit-loader">
-                                <div class="text-loader">Sending...</div>
-                                <div class="s-loader">
-                                    <div class="bounce1"></div>
-                                    <div class="bounce2"></div>
-                                    <div class="bounce3"></div>
+    <!-- banner part start-->
+    <section class="banner_part">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-xl-6">
+                    <div class="banner_text">
+                        <div class="banner_text_iner">
+                            <h1>
+                                Emergency medical diagnosis and analysis
+                            </h1>
+                            <p>
+                                We bring professional diagnosis and <br> medical solutions to<br> patients everywhere
+            
+                            </p>
+                            <a href="#"  onClick="parent.open('../api/index.html')" class="btn_2">Start a diagnosis</a>
+                            <div class="banner_item">
+                                <div class="single_item">
+                                    <img src="img/icon/banner_1.svg" alt="">
+                                    <h5>Emergency Cases</h5>
+                                </div>
+                                <div class="single_item">
+                                    <img src="img/icon/banner_2.svg" alt="">
+                                    <h5>Head start into treatment</h5>
+                                </div>
+                                <div class="single_item">
+                                    <img src="img/icon/banner_3.svg" alt="">
+                                    <h5>Unmatched Accuracy</h5>
                                 </div>
                             </div>
                         </div>
-
-                    </fieldset>
-                </form>
-
-                <!-- contact-warning -->
-                <div class="message-warning">
-                    Something went wrong. Please try again.
-                </div>
-
-                <!-- contact-success -->
-                <div class="message-success">
-                    Your message was sent, thank you!<br>
-                </div>
-
-            </div> <!-- end contact-primary -->
-
-            <div class="contact-secondary">
-                <div class="contact-info">
-
-                    <h3 class="h6 hide-on-fullwidth">Contact Info</h3>
-
-                    <div class="cinfo">
-                        <h5>Where to Find Us</h5>
-                        <p>BENNETT UNIVERSITY!
-                        </p>
                     </div>
-
-                    <div class="cinfo">
-                        <h5>Email Us At</h5>
-                        <p>
-                            contact@BENNETT.EDU.IN
-                        </p>
-                    </div>
-
-                    <div class="cinfo">
-                        <h5>Call Us At</h5>
-                        <p>
-                            Phone
-                        </p>
-                    </div>
-
-                    <ul class="contact-social">
-                        <li>
-                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
-                        </li>
-                    </ul> <!-- end contact-social -->
-
-                </div> <!-- end contact-info -->
-            </div> <!-- end contact-secondary -->
-
-        </div> <!-- end contact-content -->
-
-    </section> <!-- end s-contact -->
-
-
-    <!-- footer
-    ================================================== -->
-    <footer>
-
-        <div class="row footer-main">
-
-            <div class="col-six tab-full left footer-desc">
-
-                <!-- <div class="footer-logo"></div> -->
-                <h1  class="logo">ve<span class="logo1">KTR</span></h1  >
-
-                Bringing quality healthcare to one and all
-            </div>
-
-            <div class="col-six tab-full right footer-subscribe">
-
-                <h4>Get Notified</h4>
-                <p>Join our newsletter!</p>
-
-                <div class="subscribe-form">
-                    <form id="mc-form" class="group" novalidate="true">
-                        <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address"
-                            required="">
-                        <input type="submit" name="subscribe" value="Subscribe">
-                        <label for="mc-email" class="subscribe-message"></label>
-                    </form>
                 </div>
-
-            </div>
-
-        </div> <!-- end footer-main -->
-
-        <div class="row footer-bottom">
-
-
-            <div class="go-top">
-                <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-arrow-up" aria-hidden="true"></i></a>
             </div>
         </div>
+    </section>
+    <!-- banner part start-->
 
-        <!--        </div>  end footer-bottom -->
-        <div class='disclamier'>Please note that the information provided by this tool is provided solely for
-            educational
-            purposes and is not a qualified medical opinion. This information should not be considered advice or an
-            opinion
-            of a doctor or other health professional about your actual medical state, and you should see a doctor for
-            any
-            symptoms you may have. If you are experiencing a health emergency, you should call your local emergency
-            number
-            immediately to request emergency medical assistance.</div>
-    </footer> <!-- end footer -->
+    <!-- feature_part start-->
+    <section class="feature_part padding_top">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4 col-md-4 align-self-center">
+                    <div class="single_feature_text ">
+                        <h2>Provide emergency diagnosis</h2>
+                        <p>Our product, gives the power of medical analysis and diagnosis to the first responder at the scene of emergency, allowing him to analyse the situation and act accordingly!</p>
+                        <a href="#about" class="btn_2">Know More</a>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-8">
+                    <div class="feature_item">
+                        <div class="row">
+                            <div class="col-lg-6 col-sm-6">
+                                <div class="single_feature">
+                                    <div class="single_feature_part">
+                                        <span class="single_feature_icon"><img src="img/icon/feature_2.svg"
+                                                alt=""></span>
+                                        <h4>Instantaneous results</h4>
+                                        <p>Our product gives you instant results, helping to save time during emergency situations and accidents, increasing chances of survival for the victim </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-sm-6">
+                                <div class="single_feature">
+                                    <div class="single_feature_part">
+                                        <span class="ti-tablet"></span>
+                                        <h4>Intuitive UI</h4>
+                                        <p>Our intuitive and simplistic UI, ensures that even a layman can use and take benefit  from our product, and ensure safety  of  their loved  ones</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-sm-6">
+                                <div class="single_feature">
+                                    <div class="single_feature_part">
+                                        <span class="ti-money"></span>
 
-
-    <!-- photoswipe background
-    ================================================== -->
-    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
-
-        <div class="pswp__bg"></div>
-        <div class="pswp__scroll-wrap">
-
-            <div class="pswp__container">
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-            </div>
-
-            <div class="pswp__ui pswp__ui--hidden">
-                <div class="pswp__top-bar">
-                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-                    <button class="pswp__button pswp__button--share" title="Share"></button> <button class="pswp__button pswp__button--fs"
-                        title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-                    <div class="pswp__preloader">
-                        <div class="pswp__preloader__icn">
-                            <div class="pswp__preloader__cut">
-                                <div class="pswp__preloader__donut"></div>
+                                        <h4>Free For All</h4>
+                                        <p>Our team strongly believes in providing access and safety to all, thus we provide this product free of cost to all, ensuring widespread application and use</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-sm-6">
+                                <div class="single_feature">
+                                    <div class="single_feature_part">
+                                        <span class="single_feature_icon"><img src="img/icon/feature_1.svg"
+                                                alt=""></span>
+                                        <h4>One stop solution</h4>
+                                        <p>Our product not only diagnoses and analyses the ailment, but also guides you towards a cure, so that you can move ahead and health gets a win.</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                    <div class="pswp__share-tooltip"></div>
-                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
-                <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
-                <div class="pswp__caption">
-                    <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </section>
+    <!-- feature_part start-->
+
+    <!-- our_ability part start-->
+    <section id = "about" class="our_ability section_padding">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-md-6 col-lg-6">
+                    <div class="our_ability_img">
+                        <img src="img/ability_img.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-5">
+                    <div class="our_ability_member_text">
+                        <h2>Our Users
+                            Are at the Centre of
+                            Everything We Do</h2>
+                        <p>We bring medical diagnosis, personalized tests, medical delivery  and ambulance services, all under one name <strong>veKTR</strong>.
+                        <br>Our huge network of doctors and extensive databases ensure that you get your diagnosis everytime and with an unmatched level of accuracy!
+                        </p>
+                        <ul>
+                            <li><span class="ti-mouse"></span>Modern Technology</li>
+                            <li><span class="ti-heart-broken"></span> High Accuracy</li>
+                            <li><span class="ti-package"></span>Medicine Delivery</li>
+                            <li><span class="ti-headphone-alt"></span>24 Hours Support</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-
         </div>
+    </section>
+    <!-- our_ability part end-->
 
-    </div> <!-- end photoSwipe background -->
-
-
-    <!-- preloader
-    ================================================== -->
-    <div id="preloader">
-        <div id="loader">
-            <div class="line-scale-pulse-out">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+    <!-- top_service part start-->
+    <section class="top_service our_ability padding_bottom">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-md-5 col-lg-5">
+                    <div class="our_ability_member_text">
+                        <h2>We Take Ressponsibility for Your
+                            Health!</h2>
+                        <p>We give you access to not only to medical diagnosis services, but also to medical deliveries, consultations and blogs  </p>
+                        <a href="#" class="btn_2">Our Team</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6">
+                    <div class="our_ability_img">
+                        <img src="img/top_service.png" alt="">
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
+    <!-- top_service part end-->
+
+    <!--::review_part start::-->
+    <section class="review_part">
+        <div class="container">
+            
+            <div class="title">
+                <h2 class="anticipation">Anticipation for our project</h2>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="client_review_part owl-carousel">
+                        <div class="client_review_single">
+                            <img src="img/Quote.png" class="Quote" alt="quote">
+                             <div class="client_review_text">
+                                <p>This will help in increasing speed of response in medical emergency.
+                                </p>
+                            </div>
+                            <h4>Dr. Tapas Badal,<span> Professor</span></h4>
+                        </div>
+                        <div class="client_review_single">
+                            <img src="img/Quote.png" class="Quote" alt="quote">
+                            <div class="client_review_text">
+                                <p>Your idea seems really cool.I hope to see it implemented soon. </p>
+                            </div>
+                            <h4>Harsh K,<span> Student</span></h4>
+                        </div>
+                        
+                        <div class="client_review_single">
+                            <img src="img/Quote.png" class="Quote" alt="quote">
+                            <div class="client_review_text">
+                                <p>Very novel thought which once implemented has capability to prevent deaths due to medical delay</p>
+                            </div>
+                            <h4>Rita Banerjee,<span> Mother</span></h4>
+                        </div>
+                        <div class="client_review_single">
+                            <img src="img/Quote.png" class="Quote" alt="quote">
+                            <div class="client_review_text">
+                                <div class="client_review_text">
+                                    <p>This project can be a good way to get first hand advice and save money instead of going to doctors.</p>
+                                </div>
+                                <h4>Parikshit Bhargawa,<span> Student</span></h4>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--::review_part end::-->
+
+    <!--::regervation_part start::-->
+    <section id="contact" class="regervation_part">
+        <div class="container">
+            <div class="row align-items-center regervation_content">
+                <div class="col-lg-7 col-md-6">
+                    <div class="regervation_part_iner">
+                        <form>
+                            <h2>Contact Us</h2>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <input type="email" class="form-control" id="inputEmail4" placeholder="Name">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <input type="password" class="form-control" id="inputPassword4"
+                                        placeholder="Email address">
+                                </div>
+                                <div class="form-group col-md-12">
+                                    <textarea class="form-control" id="Textarea" rows="4"
+                                        placeholder=" Your Message"></textarea>
+                                </div>
+                            </div>
+                            <div class="regerv_btn">
+                                <a href="#" class="regerv_btn_iner">Submit
+
+                                </a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-6">
+                    <div class="reservation_img">
+                        <img src="img/reservation.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--::regervation_part end::-->
+
+    <!--::doctor_part start::-->
+    <section id="ourTeam" class="doctor_part section_padding">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-8">
+                    <div class="section_tittle text-center">
+                        <h2> Our Team</h2>
+                        <h3>The brains behind this excellent project</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-lg-2">
+                    <div class="single_blog_item">
+                        <div class="single_blog_img">
+                            <img src="img/avatar/aaryan.jpeg" alt="doctor">
+                         
+                        </div>
+                        <div class="single_text">
+                            <div class="single_blog_text">
+                                <h3>Aaryan Kapur</h3>
+                                <p>Project Manager, Full-stack developer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>    <div class="col-sm-6 col-lg-2">
+                    <div class="single_blog_item">
+                        <div class="single_blog_img">
+                            <img src="img/avatar/cheeku.jpeg" alt="doctor">
+                         
+                        </div>
+                        <div class="single_text">
+                            <div class="single_blog_text">
+                                <h3>Abhinav Robinson</h3>
+                                <p>Full-stack developer, Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-2">
+                    <div class="single_blog_item">
+                        <div class="single_blog_img">
+                            <img src="img/avatar/abhimanyu.jpeg" alt="doctor">
+                         
+                        </div>
+                        <div class="single_text">
+                            <div class="single_blog_text">
+                                <h3>Abhimanyu Banerjee</h3>
+                                <p>Documentation and version control manager</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-2">
+                    <div class="single_blog_item">
+                        <div class="single_blog_img">
+                            <img src="img/avatar/aniket.jpeg" alt="doctor">
+                         
+                        </div>
+                        <div class="single_text">
+                            <div class="single_blog_text">
+                                <h3>Aniket Chowdhury</h3>
+                                <p>Research Specialist</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-2">
+                    <div class="single_blog_item">
+                        <div class="single_blog_img">
+                            <img src="img/avatar/jai.jpeg" alt="doctor">
+                         
+                        </div>
+                        <div class="single_text">
+                            <div class="single_blog_text">
+                                <h3>Jai Chhabra</h3>
+                                <p>Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-2">
+                    <div class="single_blog_item">
+                        <div class="single_blog_img">
+                            <img src="img/avatar/shrishtee.jpeg" alt="doctor">
+                         
+                        </div>
+                        <div class="single_text">
+                            <div class="single_blog_text">
+                                <h3>Shrishtee Kriti</h3>
+                                <p>Research specialist, Alpha tester</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--::doctor_part end::-->
+
+    
+
+    <!--::blog_part start::-->
+    <section id ="opportunities" class="blog_part section_padding">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-8">
+                    <div class="section_tittle text-center">
+                        <h2>Opportunities</h2>
+                        <p>How you can get involved</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-lg-4 col-xl-4">
+                    <div class="single-home-blog">
+                        <div class="card">
+                            <img src="img/blog/blog_1.png" class="card-img-top" alt="blog">
+                            <div class="card-body">
+                                <ul>
+                                    <li> <span class="ti-user"></span>On call Support</li>
+                                </ul>
+                               
+                                    <h5 class="card-title">Help others in trouble over call, as our representatives </h5>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4 col-xl-4">
+                    <div class="single-home-blog">
+                        <div class="card">
+                            <img src="img/blog/blog_2.png" class="card-img-top" alt="blog">
+                            <div class="card-body">
+                                <ul>
+                                    <li> <span class="ti-user"></span>Join us as a doctor</li>
+                                </ul>
+
+                                    <h5 class="card-title">Help others by reporting first, and analysing cases </h5>
 
 
-    <!-- Java Script
-    ================================================== -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4 col-xl-4">
+                    <div class="single-home-blog">
+                        <div class="card">
+                            <img src="img/blog/blog_3.png" class="card-img-top" alt="blog">
+                            <div class="card-body">
+                                <ul>
+                                    <li> <span class="ti-user"></span>Join us as an ambulance partner</li>
+                                </ul>
+                                <h5 class="card-title">Help others at the emergency by providing transportation in time </h5>
+                               
 
-    <!-- <script src="https://www.gstatic.com/firebasejs/5.5.4/firebase.js"></script> -->
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--::blog_part end::-->
 
+    <!-- footer part start-->
+    <footer class="footer-area">
+        <div class="footer section_padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-2 col-sm-4 mb-4 mb-xl-0 single-footer-widget">
+                        <h4>Services Link</h4>
+                        <ul>
+                            <li><a href="../api/index.html">Analysis</a></li>
+                            <li><a href="https://www.netmeds.com">Order Medicines</a></li>
+                            <li><a href="https://traan.co.in">Request Ambulance</a></li>
+                  
+                        </ul>
+                    </div>
+                    <div class="col-xl-2 col-sm-4 mb-4 mb-xl-0 single-footer-widget">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#about">About us</a></li>
+                            <li><a href="#contact">contact</a></li>
+                            <li><a href="#opportunities">opportunities</a></li>
+                           
+                        </ul>
+                    </div>
+
+                    <div class="col-xl-2 col-sm-4 mb-4 mb-xl-0 single-footer-widget">
+                        <h4>Explore</h4>
+                        <ul>
+                            <li><a href="https://www.github.com/vektrmedicare/vektrmedicare.github.io">github</a></li>
+                            <li><a href="https://github.com/aaryan-kapur">team Github</a></li>
+                            <li><a href="https://github.com/aniketchowdhury">team Github </a></li>
+    
+                        </ul>
+                    </div>
+                    <div class="col-xl-2 col-sm-4 mb-4 mb-xl-0 single-footer-widget">
+                        <h4>Explore</h4>
+                        <ul>
+                            <li><a href="https://github.com/abhimanyubanerjee">team Github </a></li>
+                            <li><a href="https://github.com/jaichhabra">team Github </a></li>
+                            <li><a href="https://github.com/shrishtikriti">team Github </a></li>
+
+                        </ul>
+                    </div>
+                    <div class="col-xl-4 col-sm-8 col-md-8 mb-4 mb-xl-0 single-footer-widget">
+                        <h4>Newsletter</h4>
+                        <p>Know about our details</p>
+                        <div class="form-wrap" id="mc_embed_signup">
+                            <form target="_blank"
+                                action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
+                                method="get" class="form-inline">
+                                <input class="form-control" name="EMAIL" placeholder="Your Email Address"
+                                    onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Email Address '"
+                                    required="" type="email">
+                                <button class="click-btn btn btn-default text-uppercase">subscribe</button>
+                                <div style="position: absolute; left: -5000px;">
+                                    <input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value=""
+                                        type="text">
+                                </div>
+
+                                <div class="info"></div>
+                            </form> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+       
+    </footer>
+
+    <!-- footer part end-->
+
+    <!-- jquery plugins here-->
+
+    <script src="js/jquery-1.12.1.min.js"></script>
+    <!-- popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- easing js -->
+    <script src="js/jquery.magnific-popup.js"></script>
+    <!-- swiper js -->
+    <script src="js/swiper.min.js"></script>
+    <!-- swiper js -->
+    <script src="js/masonry.pkgd.js"></script>
+    <!-- particles js -->
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <!-- swiper js -->
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <!-- contact js -->
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/mail-script.js"></script>
+    <script src="js/contact.js"></script>
+    <!-- custom js -->
+    <script src="js/custom.js"></script>
 </body>
 
 </html>
