@@ -1,8 +1,8 @@
 /**************** common css start ****************/
-@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Roboto:300,400,500,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Montserrat:300,400,500,700&display=swap");
 /* line 3, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_common.scss */
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif !important;
   padding: 0;
   margin: 0;
   font-size: 14px;
@@ -171,13 +171,13 @@ a:hover {
 /* line 87, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_common.scss */
 h1, h2, h3, h4, h5, h6 {
   color: #242429;
-  font-family: "Playfair Display", serif;
+  font-family: "Montserrat", serif;
 }
 
 /* line 91, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_common.scss */
 p {
   color: #666666;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: 1.929;
   font-size: 14px;
   margin-bottom: 0px;
@@ -496,7 +496,7 @@ ul {
   text-transform: capitalize;
   border: 1px solid #e4e6ea;
   border-radius: 2px;
-  font-family: "Playfair Display", serif;
+  font-family: "Montserrat", serif;
 }
 
 /* line 39, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_button.scss */
@@ -544,7 +544,7 @@ ul {
   text-transform: capitalize;
   border: 1px solid #e4e6ea;
   border-radius: 2px;
-  font-family: "Playfair Display", serif;
+  font-family: "Montserrat", serif;
 }
 
 /* line 79, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_button.scss */
@@ -2141,7 +2141,7 @@ ul {
   color: #242429;
   font-size: 14px;
   padding: 38px 23px;
-  font-family: "Playfair Display", serif;
+  font-family: "Montserrat", serif;
   line-height: 13px;
   text-transform: capitalize;
 }
@@ -2272,7 +2272,7 @@ ul {
   color: #fff;
   font-size: 15px;
   padding: 0px 24px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
@@ -2462,7 +2462,7 @@ ul {
 .banner_part .banner_text p {
   font-size: 15px;
   line-height: 1.8;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #777777;
   padding-right: 20px;
 }
@@ -2737,7 +2737,7 @@ ul {
   color: #ff7e5f;
   font-size: 22px;
   font-style: italic;
-  font-family: "Playfair Display", serif;
+  font-family: "Montserrat", serif;
   font-weight: 300;
 }
 
@@ -3184,7 +3184,7 @@ ul {
 /* line 59, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_review.scss */
 .review_part .client_review_single .client_review_text p {
   font-size: 18px;
-  font-family: "Playfair Display", serif;
+  font-family: "Montserrat", serif;
   color: #fff;
   line-height: 1.9;
 }
@@ -3248,7 +3248,7 @@ ul {
 
 /* line 109, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_review.scss */
 .review_part h4 span {
-  font-family: "Playfair Display", serif;
+  font-family: "Montserrat", serif;
   font-size: 14px;
   color: #fff;
   font-weight: 400;
@@ -3401,7 +3401,7 @@ ul {
   display: inline-block;
   background-color: #0065e1;
   color: #fff;
-  font-family: "Playfair Display", serif;
+  font-family: "Montserrat", serif;
   padding: 14.5px 31.5px;
   margin-top: 10px;
 }
@@ -3431,7 +3431,7 @@ ul {
   border: 1px solid #e4e6ea;
   border-radius: 0px;
   font-size: 14px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin-bottom: 4px;
   height: 50px;
   padding: 15px;
@@ -3849,7 +3849,7 @@ ul {
 
 /* line 29, ../../01 cl html template/New folder/May 2019/179 Medisen Medical/179 Medisen Medical -Template/sass/_our_ability.scss */
 .our_ability .our_ability_member_text h5 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #556172;
   font-size: 14px;
   font-weight: 500;
@@ -3962,7 +3962,7 @@ ul {
   color: #242429;
   width: 50%;
   float: left;
-  font-family: "Playfair Display", serif;
+  font-family: "Montserrat", serif;
   position: relative;
   padding-left: 29px;
 }
@@ -4101,7 +4101,7 @@ ul {
   border: 0;
   font-size: 12px;
   font-weight: 400;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   position: relative;
   left: 0;
 }
@@ -5795,7 +5795,7 @@ h6 {
 .blog_part .blog_btn {
   font-size: 14px;
   text-transform: uppercase;
-  font-family: "Playfair Display", serif;
+  font-family: "Montserrat", serif;
   font-weight: 500;
   margin-top: 20px;
   display: inline-block;
@@ -6180,7 +6180,7 @@ h6 {
   border: 0;
   font-size: 12px;
   font-weight: 400;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   position: relative;
   left: 0;
 }
