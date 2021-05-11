@@ -24,7 +24,7 @@
     "file-loader": "^0.10.0",
     "font-awesome": "^4.7.0",
     "jquery": "^3.4.0",
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.21",
     "popper.js": "^1.14.4",
     "semistandard": "^9.2.1",
     "standard": "^8.6.0",
